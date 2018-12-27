@@ -1,7 +1,7 @@
 {
-	"name": "request_header",
-	"version": "0.0.1",
-	"description": "API project for freeCodeCamp",
+	"name": "Request Header Parser Microservice",
+	"version": "1.0.0",
+	"description": "freeCodeCamp - APIs and Microservices Project: Request Header Parser Microservice",
 	"author": "Adam",
 	"main": "server.js",
 	"scripts": {
@@ -16,11 +16,11 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://hyperdev.com/#!/project/welcome-project"
+		"url": "https://github.com/Adam111/freecodecamp-project-request-header-parser"
 	},
 	"keywords": [
+		"glitch",
 		"node",
-		"hyperdev",
 		"express",
 		"freecodecamp"
 	],
