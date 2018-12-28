@@ -21,7 +21,7 @@ app.get("/", function (req, res) {
 
 // your first API endpoint... 
 app.get("/api/hello", function (req, res) {
-  res.json({greeting: 'hello API'});
+  return res.json({greeting: 'hello API'});
 });
 
 
@@ -35,7 +35,7 @@ var listener = app.listen(process.env.PORT, function () {
 app.enable('trust proxy');
 
 app.get('/api/whoami', function (req, res) {
-  res.json({
+  return res.json({
     ipaddress: req['ip'],
     language: req['headers']['accept-language'],
     software: req['headers']['user-agent']
