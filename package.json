@@ -1,5 +1,5 @@
 {
-	"name": "Request Header Parser Microservice",
+	"name": "freecodecamp-project-request-header-parser",
 	"version": "1.0.0",
 	"description": "freeCodeCamp - APIs and Microservices Project: Request Header Parser Microservice",
 	"author": "Adam",
@@ -16,7 +16,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Adam111/freecodecamp-project-request-header-parser"
+		"url": "https://github.com/Adam111/freecodecamp-project-request-header-parser.git"
 	},
 	"keywords": [
 		"glitch",
